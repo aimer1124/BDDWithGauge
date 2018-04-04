@@ -2,7 +2,7 @@
 .gradle
 /build/
 gradle-app.setting
-!gradle-wrapper.jar
+!Step99/gradle/gradle-wrapper.jar
 .gradletasknamecache
 .DS_Store
 .AppleDouble
