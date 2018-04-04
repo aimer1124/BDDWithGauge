@@ -15,6 +15,7 @@ cache:
   - $HOME/.gradle
 
 before_install:
+  - cd Step99
   - chmod a+x gradlew
   - sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-keys 023EDB0B
   - echo deb https://dl.bintray.com/gauge/gauge-deb stable main | sudo tee -a /etc/apt/sources.list
@@ -24,5 +25,4 @@ before_install:
   - gauge install html-report
 
 script:
-  - cd Step99
   - ./gradlew clean gauge
