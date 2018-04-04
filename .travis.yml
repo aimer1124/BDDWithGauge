@@ -23,6 +23,8 @@ before_install:
   - sudo apt-get install gauge
   - gauge install java
   - gauge install html-report
+  - pwd
 
 script:
+  - pwd
   - ./gradlew clean gauge
