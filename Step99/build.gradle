@@ -13,10 +13,10 @@ apply plugin: 'idea'
 apply plugin: 'application'
 apply plugin: 'gauge'
 
-group = "saic-iot-e2e-test"
+group = "Step99"
 version = "1.0.0"
 
-description = "saic-iot-e2e-test"
+description = "Use travis run BDD"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
