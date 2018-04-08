@@ -26,5 +26,5 @@ before_install:
   - pwd
 
 script:
-  - pwd
+  - cd Step99
   - ./gradlew clean gauge
