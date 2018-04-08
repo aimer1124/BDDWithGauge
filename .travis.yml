@@ -27,4 +27,4 @@ before_install:
 
 script:
   - cd Step99
-  - ./gradlew clean gauge
+  - ./gradlew clean gauge --info
