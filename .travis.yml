@@ -10,9 +10,9 @@ branches:
   only:
   - master
 
-#cache:
-#  directories:
-#  - $HOME/.gradle
+cache:
+  directories:
+  - $HOME/.gradle
 
 before_install:
   - cd Step99
